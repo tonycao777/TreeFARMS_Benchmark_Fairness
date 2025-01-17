@@ -1,0 +1,1130 @@
+Current Working Directory: /home/users/dc460/TreeFARMSBenchmark
+(CVXPY) Dec 06 09:52:07 AM: Encountered unexpected exception importing solver GUROBI:
+ImportError('libgurobi100.so: cannot open shared object file: No such file or directory')
+(CVXPY) Dec 06 09:52:07 AM: Encountered unexpected exception importing solver GUROBI:
+ImportError('libgurobi100.so: cannot open shared object file: No such file or directory')
+Completed setup
+Threshold Guessing applied for depth >= 4
+sets up the model
+Fitting 5 folds for each of 28 candidates, totalling 140 fits
+[CV 1/5] END depth_budget=2, regularization=0.005;, score=0.664 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.005;, score=0.750 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.005;, score=0.727 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.005;, score=0.648 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.005;, score=0.680 total time=   0.0s
+[CV 1/5] END depth_budget=2, regularization=0.01;, score=0.656 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.01;, score=0.742 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.01;, score=0.727 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.01;, score=0.648 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.01;, score=0.680 total time=   0.0s
+[CV 1/5] END depth_budget=2, regularization=0.015;, score=0.656 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.015;, score=0.742 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.015;, score=0.727 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.015;, score=0.695 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.015;, score=0.703 total time=   0.0s
+[CV 1/5] END depth_budget=2, regularization=0.02;, score=0.656 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.02;, score=0.703 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.02;, score=0.703 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.02;, score=0.695 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.02;, score=0.703 total time=   0.0s
+[CV 1/5] END depth_budget=2, regularization=0.025;, score=0.703 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.025;, score=0.703 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.025;, score=0.703 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.025;, score=0.695 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.025;, score=0.703 total time=   0.0s
+[CV 1/5] END depth_budget=2, regularization=0.03;, score=0.703 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.03;, score=0.703 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.03;, score=0.703 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.03;, score=0.695 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.03;, score=0.695 total time=   0.0s
+[CV 1/5] END depth_budget=2, regularization=0.05;, score=0.703 total time=   0.0s
+[CV 2/5] END depth_budget=2, regularization=0.05;, score=0.703 total time=   0.0s
+[CV 3/5] END depth_budget=2, regularization=0.05;, score=0.703 total time=   0.0s
+[CV 4/5] END depth_budget=2, regularization=0.05;, score=0.695 total time=   0.0s
+[CV 5/5] END depth_budget=2, regularization=0.05;, score=0.695 total time=   0.0s
+[CV 1/5] END depth_budget=3, regularization=0.005;, score=0.672 total time=   1.2s
+[CV 2/5] END depth_budget=3, regularization=0.005;, score=0.750 total time=   1.2s
+[CV 3/5] END depth_budget=3, regularization=0.005;, score=0.727 total time=   1.2s
+[CV 4/5] END depth_budget=3, regularization=0.005;, score=0.703 total time=   1.2s
+[CV 5/5] END depth_budget=3, regularization=0.005;, score=0.703 total time=   1.2s
+[CV 1/5] END depth_budget=3, regularization=0.01;, score=0.656 total time=   1.1s
+[CV 2/5] END depth_budget=3, regularization=0.01;, score=0.766 total time=   1.1s
+[CV 3/5] END depth_budget=3, regularization=0.01;, score=0.727 total time=   1.1s
+[CV 4/5] END depth_budget=3, regularization=0.01;, score=0.703 total time=   1.1s
+[CV 5/5] END depth_budget=3, regularization=0.01;, score=0.695 total time=   1.1s
+[CV 1/5] END depth_budget=3, regularization=0.015;, score=0.656 total time=   1.0s
+[CV 2/5] END depth_budget=3, regularization=0.015;, score=0.742 total time=   1.0s
+[CV 3/5] END depth_budget=3, regularization=0.015;, score=0.727 total time=   1.0s
+[CV 4/5] END depth_budget=3, regularization=0.015;, score=0.695 total time=   1.0s
+[CV 5/5] END depth_budget=3, regularization=0.015;, score=0.703 total time=   1.0s
+[CV 1/5] END depth_budget=3, regularization=0.02;, score=0.656 total time=   1.0s
+[CV 2/5] END depth_budget=3, regularization=0.02;, score=0.703 total time=   1.0s
+[CV 3/5] END depth_budget=3, regularization=0.02;, score=0.703 total time=   1.0s
+[CV 4/5] END depth_budget=3, regularization=0.02;, score=0.695 total time=   1.0s
+[CV 5/5] END depth_budget=3, regularization=0.02;, score=0.703 total time=   1.0s
+[CV 1/5] END depth_budget=3, regularization=0.025;, score=0.703 total time=   0.9s
+[CV 2/5] END depth_budget=3, regularization=0.025;, score=0.703 total time=   0.9s
+[CV 3/5] END depth_budget=3, regularization=0.025;, score=0.703 total time=   0.9s
+[CV 4/5] END depth_budget=3, regularization=0.025;, score=0.695 total time=   0.9s
+[CV 5/5] END depth_budget=3, regularization=0.025;, score=0.703 total time=   0.9s
+[CV 1/5] END depth_budget=3, regularization=0.03;, score=0.703 total time=   0.8s
+[CV 2/5] END depth_budget=3, regularization=0.03;, score=0.703 total time=   0.8s
+[CV 3/5] END depth_budget=3, regularization=0.03;, score=0.703 total time=   0.8s
+[CV 4/5] END depth_budget=3, regularization=0.03;, score=0.695 total time=   0.8s
+[CV 5/5] END depth_budget=3, regularization=0.03;, score=0.695 total time=   0.8s
+[CV 1/5] END depth_budget=3, regularization=0.05;, score=0.703 total time=   0.6s
+[CV 2/5] END depth_budget=3, regularization=0.05;, score=0.703 total time=   0.6s
+[CV 3/5] END depth_budget=3, regularization=0.05;, score=0.703 total time=   0.6s
+[CV 4/5] END depth_budget=3, regularization=0.05;, score=0.695 total time=   0.6s
+[CV 5/5] END depth_budget=3, regularization=0.05;, score=0.695 total time=   0.6s
+[CV 1/5] END depth_budget=4, regularization=0.005;, score=0.680 total time= 1.1min
+[CV 2/5] END depth_budget=4, regularization=0.005;, score=0.719 total time= 1.1min
+[CV 3/5] END depth_budget=4, regularization=0.005;, score=0.656 total time= 1.1min
+[CV 4/5] END depth_budget=4, regularization=0.005;, score=0.711 total time= 1.1min
+[CV 5/5] END depth_budget=4, regularization=0.005;, score=0.711 total time= 1.1min
+[CV 1/5] END depth_budget=4, regularization=0.01;, score=0.656 total time=  51.5s
+[CV 2/5] END depth_budget=4, regularization=0.01;, score=0.750 total time=  52.0s
+[CV 3/5] END depth_budget=4, regularization=0.01;, score=0.734 total time=  51.8s
+[CV 4/5] END depth_budget=4, regularization=0.01;, score=0.703 total time=  51.8s
+[CV 5/5] END depth_budget=4, regularization=0.01;, score=0.695 total time=  51.3s
+[CV 1/5] END depth_budget=4, regularization=0.015;, score=0.656 total time=  44.5s
+[CV 2/5] END depth_budget=4, regularization=0.015;, score=0.742 total time=  44.9s
+[CV 3/5] END depth_budget=4, regularization=0.015;, score=0.727 total time=  44.8s
+[CV 4/5] END depth_budget=4, regularization=0.015;, score=0.695 total time=  44.5s
+[CV 5/5] END depth_budget=4, regularization=0.015;, score=0.703 total time=  44.6s
+[CV 1/5] END depth_budget=4, regularization=0.02;, score=0.656 total time=  38.2s
+[CV 2/5] END depth_budget=4, regularization=0.02;, score=0.703 total time=  38.1s
+[CV 3/5] END depth_budget=4, regularization=0.02;, score=0.703 total time=  37.8s
+[CV 4/5] END depth_budget=4, regularization=0.02;, score=0.695 total time=  38.0s
+[CV 5/5] END depth_budget=4, regularization=0.02;, score=0.703 total time=  37.9s
+[CV 1/5] END depth_budget=4, regularization=0.025;, score=0.703 total time=  33.1s
+[CV 2/5] END depth_budget=4, regularization=0.025;, score=0.703 total time=  33.4s
+[CV 3/5] END depth_budget=4, regularization=0.025;, score=0.703 total time=  33.0s
+[CV 4/5] END depth_budget=4, regularization=0.025;, score=0.695 total time=  32.8s
+[CV 5/5] END depth_budget=4, regularization=0.025;, score=0.703 total time=  33.0s
+[CV 1/5] END depth_budget=4, regularization=0.03;, score=0.703 total time=  28.9s
+[CV 2/5] END depth_budget=4, regularization=0.03;, score=0.703 total time=  29.1s
+[CV 3/5] END depth_budget=4, regularization=0.03;, score=0.703 total time=  28.7s
+[CV 4/5] END depth_budget=4, regularization=0.03;, score=0.695 total time=  29.0s
+[CV 5/5] END depth_budget=4, regularization=0.03;, score=0.695 total time=  28.8s
+[CV 1/5] END depth_budget=4, regularization=0.05;, score=0.703 total time=   8.7s
+[CV 2/5] END depth_budget=4, regularization=0.05;, score=0.703 total time=   8.6s
+[CV 3/5] END depth_budget=4, regularization=0.05;, score=0.703 total time=   8.3s
+[CV 4/5] END depth_budget=4, regularization=0.05;, score=0.695 total time=   8.0s
+[CV 5/5] END depth_budget=4, regularization=0.05;, score=0.695 total time=   8.1s
+[CV 1/5] END depth_budget=5, regularization=0.005;, score=0.664 total time=89.4min
+[CV 2/5] END depth_budget=5, regularization=0.005;, score=0.734 total time=96.0min
+[CV 3/5] END depth_budget=5, regularization=0.005;, score=0.688 total time=87.0min
+[CV 4/5] END depth_budget=5, regularization=0.005;, score=0.719 total time=89.8min
+[CV 5/5] END depth_budget=5, regularization=0.005;, score=0.703 total time=88.5min
+[CV 1/5] END depth_budget=5, regularization=0.01;, score=0.656 total time=49.4min
+[CV 2/5] END depth_budget=5, regularization=0.01;, score=0.742 total time=50.9min
+[CV 3/5] END depth_budget=5, regularization=0.01;, score=0.734 total time=42.3min
+[CV 4/5] END depth_budget=5, regularization=0.01;, score=0.703 total time=44.3min
+[CV 5/5] END depth_budget=5, regularization=0.01;, score=0.695 total time=44.0min
+[CV 1/5] END depth_budget=5, regularization=0.015;, score=0.656 total time=30.2min
+[CV 2/5] END depth_budget=5, regularization=0.015;, score=0.742 total time=31.1min
+[CV 3/5] END depth_budget=5, regularization=0.015;, score=0.727 total time=28.4min
+[CV 4/5] END depth_budget=5, regularization=0.015;, score=0.695 total time=29.1min
+[CV 5/5] END depth_budget=5, regularization=0.015;, score=0.703 total time=29.4min
+[CV 1/5] END depth_budget=5, regularization=0.02;, score=0.656 total time=20.7min
+[CV 2/5] END depth_budget=5, regularization=0.02;, score=0.703 total time=21.6min
+[CV 3/5] END depth_budget=5, regularization=0.02;, score=0.703 total time=19.3min
+[CV 4/5] END depth_budget=5, regularization=0.02;, score=0.695 total time=20.3min
+[CV 5/5] END depth_budget=5, regularization=0.02;, score=0.703 total time=20.8min
+[CV 1/5] END depth_budget=5, regularization=0.025;, score=0.703 total time=15.3min
+[CV 2/5] END depth_budget=5, regularization=0.025;, score=0.703 total time=16.0min
+[CV 3/5] END depth_budget=5, regularization=0.025;, score=0.703 total time=14.3min
+[CV 4/5] END depth_budget=5, regularization=0.025;, score=0.695 total time=15.2min
+[CV 5/5] END depth_budget=5, regularization=0.025;, score=0.703 total time=15.4min
+[CV 1/5] END depth_budget=5, regularization=0.03;, score=0.703 total time=11.9min
+[CV 2/5] END depth_budget=5, regularization=0.03;, score=0.703 total time=12.4min
+[CV 3/5] END depth_budget=5, regularization=0.03;, score=0.703 total time=11.2min
+[CV 4/5] END depth_budget=5, regularization=0.03;, score=0.695 total time=11.8min
+[CV 5/5] END depth_budget=5, regularization=0.03;, score=0.695 total time=11.7min
+[CV 1/5] END depth_budget=5, regularization=0.05;, score=0.703 total time=   9.3s
+[CV 2/5] END depth_budget=5, regularization=0.05;, score=0.703 total time=   9.1s
+[CV 3/5] END depth_budget=5, regularization=0.05;, score=0.703 total time=   8.7s
+[CV 4/5] END depth_budget=5, regularization=0.05;, score=0.695 total time=   8.2s
+[CV 5/5] END depth_budget=5, regularization=0.05;, score=0.695 total time=   8.7s
+performed grid search
+Best Parameters: {'depth_budget': 3, 'regularization': 0.005}
+Best Cross-Validation Score: 0.7109375
+Here are the best Params: {'depth_budget': 3, 'regularization': 0.005}
+treefarms reported successful execution
+training completed. Number of trees in the Rashomon set: 80
+/home/users/dc460/TreeFARMSBenchmark/results_rset/rset_german-credit_0.005_3_0.05.p
+duration 0.2277209758758545
+80
+acc 0.72125
+acc 0.725
+acc 0.7275
+acc 0.72
+acc 0.71875
+acc 0.7175
+acc 0.71875
+acc 0.71375
+acc 0.71625
+acc 0.7125
+acc 0.71
+acc 0.7112499999999999
+acc 0.72375
+acc 0.7224999999999999
+acc 0.7150000000000001
+acc 0.7175
+acc 0.71625
+evaluating the first model in the Rashomon set
+Training accuracy: 0.72125
+# of leaves: 4
+if feature_0 = true and feature_62 = true then:
+    predicted Prediction: 0
+
+else if feature_0 != true and feature_62 = true then:
+    predicted Prediction: 1
+
+else if feature_10 = true and feature_62 != true then:
+    predicted Prediction: 0
+
+else if feature_10 != true and feature_62 != true then:
+    predicted Prediction: 1
+Got the Rset
+Model loaded from /home/users/dc460/TreeFARMSBenchmark/results_rset/rset_german-credit_0.005_3_0.05.p
+There are  80 trees!
+Here's the best Tree: {<function demographic_parity_difference at 0x7f4f4f261900>: [{
+  "feature": 35,
+  "relation": "==",
+  "reference": "true",
+  "true": {
+    "feature": 0,
+    "relation": "==",
+    "reference": "true",
+    "true": {
+      "prediction": 0,
+      "name": "Prediction"
+    },
+    "false": {
+      "prediction": 1,
+      "name": "Prediction"
+    }
+  },
+  "false": {
+    "feature": 10,
+    "relation": "==",
+    "reference": "true",
+    "true": {
+      "prediction": 0,
+      "name": "Prediction"
+    },
+    "false": {
+      "prediction": 1,
+      "name": "Prediction"
+    }
+  }
+}, np.float64(0.0007053429730206062)], <function equal_opportunity_difference at 0x7f4f4f261a20>: [{
+  "feature": 0,
+  "relation": "==",
+  "reference": "true",
+  "true": {
+    "feature": 62,
+    "relation": "==",
+    "reference": "true",
+    "true": {
+      "prediction": 0,
+      "name": "Prediction"
+    },
+    "false": {
+      "prediction": 1,
+      "name": "Prediction"
+    }
+  },
+  "false": {
+    "prediction": 1,
+    "name": "Prediction"
+  }
+}, np.float64(0.0043290043290044045)], <function euqalized_odds_difference at 0x7f4f4f261ab0>: [{
+  "feature": 11,
+  "relation": "==",
+  "reference": "true",
+  "true": {
+    "feature": 56,
+    "relation": "==",
+    "reference": "true",
+    "true": {
+      "prediction": 1,
+      "name": "Prediction"
+    },
+    "false": {
+      "prediction": 0,
+      "name": "Prediction"
+    }
+  },
+  "false": {
+    "feature": 10,
+    "relation": "==",
+    "reference": "true",
+    "true": {
+      "prediction": 0,
+      "name": "Prediction"
+    },
+    "false": {
+      "prediction": 1,
+      "name": "Prediction"
+    }
+  }
+}, np.float64(0.0043290043290044045)]}
+the fair score has mean: {<function demographic_parity_difference at 0x7f4f4f261900>: np.float64(0.07186813186813186), <function equal_opportunity_difference at 0x7f4f4f261a20>: np.float64(0.07802086802086805), <function euqalized_odds_difference at 0x7f4f4f261ab0>: np.float64(0.10175084175084176)} with standard deviation: {<function demographic_parity_difference at 0x7f4f4f261900>: np.float64(0.041336706638970225), <function equal_opportunity_difference at 0x7f4f4f261a20>: np.float64(0.024235438564110555), <function euqalized_odds_difference at 0x7f4f4f261ab0>: np.float64(0.09434488832012258)}
+the accuracy is: {<function demographic_parity_difference at 0x7f4f4f261900>: np.float64(0.7449999999999999), <function equal_opportunity_difference at 0x7f4f4f261a20>: np.float64(0.7300000000000001), <function euqalized_odds_difference at 0x7f4f4f261ab0>: np.float64(0.73)} with std: {<function demographic_parity_difference at 0x7f4f4f261900>: np.float64(0.08717797887081348), <function equal_opportunity_difference at 0x7f4f4f261a20>: np.float64(0.07483314773547882), <function euqalized_odds_difference at 0x7f4f4f261ab0>: np.float64(0.08999999999999998)}
+s/dc460/TreeFARMSBenchmark/results_fair/post_bank_0.005_2_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8946146190423532)], 'original_metric': [np.float64(0.03545955615981071)], 'postprocessed_metric': [np.float64(0.03545955615981071)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8946146190423532)], 'original_metric': [np.float64(0.03545955615981071)], 'postprocessed_metric': [np.float64(0.03545955615981071)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8849939179475838)], 'original_metric': [np.float64(0.04101016707295321)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8849939179475838)], 'original_metric': [np.float64(0.04101016707295321)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_bank_0.005_3_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_bank_0.005_3_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8948357845847617)], 'original_metric': [np.float64(0.03545955615981071)], 'postprocessed_metric': [np.float64(0.03545955615981071)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8948357845847617)], 'original_metric': [np.float64(0.03545955615981071)], 'postprocessed_metric': [np.float64(0.03545955615981071)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8849939179475838)], 'original_metric': [np.float64(0.04101016707295321)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8948357845847617)], 'postprocessed_accuracy': [np.float64(0.8849939179475838)], 'original_metric': [np.float64(0.04101016707295321)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_bank_0.005_4_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_bank_0.005_4_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.6461538461538461)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+[0.00910693 0.01538521 0.01844447 0.09475008 0.12796687 0.15037594]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.6461538461538461)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6534412955465587)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08914506187361793)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+[0.00062767 0.00202296 0.00339599 0.04868388 0.06845616 0.07982395]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6534412955465587)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08914506187361793)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6631578947368422), 'postprocessed_accuracy': np.float64(0.4607287449392713), 'original_metric': np.float64(0.2837408069966209), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+[0.0196875 0.0221875 0.026875  0.1125    0.1503125 0.18     ]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6631578947368422), 'postprocessed_accuracy': np.float64(0.4607287449392713), 'original_metric': np.float64(0.2837408069966209), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6558704453441295)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6558704453441295)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6558704453441295)], 'postprocessed_accuracy': [np.float64(0.6558704453441295)], 'original_metric': [np.float64(0.04767326965604857)], 'postprocessed_metric': [np.float64(0.04767326965604857)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6558704453441295)], 'postprocessed_accuracy': [np.float64(0.6558704453441295)], 'original_metric': [np.float64(0.04767326965604857)], 'postprocessed_metric': [np.float64(0.04767326965604857)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6631578947368422), 'postprocessed_accuracy': np.float64(0.4607287449392713), 'original_metric': np.float64(0.2837408069966209), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6631578947368422), 'postprocessed_accuracy': np.float64(0.4607287449392713), 'original_metric': np.float64(0.2837408069966209), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6631578947368422), 'postprocessed_accuracy': np.float64(0.4607287449392713), 'original_metric': np.float64(0.2837408069966209), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6631578947368422), 'postprocessed_accuracy': np.float64(0.4607287449392713), 'original_metric': np.float64(0.2837408069966209), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.637246963562753)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+[0.00910693 0.01538521 0.01844447 0.09475008 0.12796687 0.15037594]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.637246963562753)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+[0.00062767 0.00202296 0.00339599 0.04868388 0.06845616 0.07982395]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_compas-recid_0.005_2_eodds.p not found.
+[0.0196875 0.0221875 0.026875  0.1125    0.1503125 0.18     ]
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_compas-recid_0.005_2_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.4607287449392713)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.6631578947368422)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.06122429774620053)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.6631578947368422)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.06122429774620053)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_compas-recid_0.005_3_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_compas-recid_0.005_3_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6623481781376519)], 'postprocessed_accuracy': [np.float64(0.6251012145748989)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6623481781376519)], 'postprocessed_accuracy': [np.float64(0.6251012145748989)], 'original_metric': [np.float64(0.08395791457999752)], 'postprocessed_metric': [np.float64(0.08395791457999752)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.6720647773279352)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.06857384839787328)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6631578947368422)], 'postprocessed_accuracy': [np.float64(0.6720647773279352)], 'original_metric': [np.float64(0.06122429774620053)], 'postprocessed_metric': [np.float64(0.06857384839787328)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_compas-recid_0.005_4_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_compas-recid_0.005_4_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.73), np.float64(0.73), np.float64(0.73), np.float64(0.73)], 'postprocessed_accuracy': [np.float64(0.735), np.float64(0.73), np.float64(0.73), np.float64(0.73)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+[0.00368558]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.73), np.float64(0.73), np.float64(0.73), np.float64(0.73)], 'postprocessed_accuracy': [np.float64(0.735), np.float64(0.73), np.float64(0.73), np.float64(0.73)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'postprocessed_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'original_metric': [np.float64(0.029324169530355104), np.float64(0.029324169530355104), np.float64(0.029324169530355104), np.float64(0.029324169530355104)], 'postprocessed_metric': [np.float64(0.0016036655211912887), np.float64(0.0016036655211912887), np.float64(0.0016036655211912887), np.float64(0.0016036655211912887)]}
+the postfile was not empty
+[0.00602755]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'postprocessed_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'original_metric': [np.float64(0.029324169530355104), np.float64(0.029324169530355104), np.float64(0.029324169530355104), np.float64(0.029324169530355104)], 'postprocessed_metric': [np.float64(0.0016036655211912887), np.float64(0.0016036655211912887), np.float64(0.0016036655211912887), np.float64(0.0016036655211912887)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.69), np.float64(0.69), np.float64(0.69), np.float64(0.69)], 'postprocessed_accuracy': [np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004)], 'original_metric': [np.float64(0.12741312741312744), np.float64(0.12741312741312744), np.float64(0.12741312741312744), np.float64(0.12741312741312744)], 'postprocessed_metric': [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]}
+the postfile was not empty
+[0.01623377]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.69), np.float64(0.69), np.float64(0.69), np.float64(0.69)], 'postprocessed_accuracy': [np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004)], 'original_metric': [np.float64(0.12741312741312744), np.float64(0.12741312741312744), np.float64(0.12741312741312744), np.float64(0.12741312741312744)], 'postprocessed_metric': [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.765), np.float64(0.765), np.float64(0.765), np.float64(0.765)], 'postprocessed_accuracy': [np.float64(0.765), np.float64(0.74), np.float64(0.765), np.float64(0.765)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.765), np.float64(0.765), np.float64(0.765), np.float64(0.765)], 'postprocessed_accuracy': [np.float64(0.765), np.float64(0.74), np.float64(0.765), np.float64(0.765)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.685), np.float64(0.685), np.float64(0.685), np.float64(0.685)], 'postprocessed_accuracy': [np.float64(0.71), np.float64(0.71), np.float64(0.71), np.float64(0.71)], 'original_metric': [np.float64(0.030240549828178698), np.float64(0.030240549828178698), np.float64(0.030240549828178698), np.float64(0.030240549828178698)], 'postprocessed_metric': [np.float64(0.040549828178694125), np.float64(0.040549828178694125), np.float64(0.040549828178694125), np.float64(0.040549828178694125)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.685), np.float64(0.685), np.float64(0.685), np.float64(0.685)], 'postprocessed_accuracy': [np.float64(0.71), np.float64(0.71), np.float64(0.71), np.float64(0.71)], 'original_metric': [np.float64(0.030240549828178698), np.float64(0.030240549828178698), np.float64(0.030240549828178698), np.float64(0.030240549828178698)], 'postprocessed_metric': [np.float64(0.040549828178694125), np.float64(0.040549828178694125), np.float64(0.040549828178694125), np.float64(0.040549828178694125)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001)], 'postprocessed_accuracy': [np.float64(0.725), np.float64(0.725), np.float64(0.725), np.float64(0.725)], 'original_metric': [np.float64(0.12462772050400917), np.float64(0.12462772050400917), np.float64(0.12462772050400917), np.float64(0.12462772050400917)], 'postprocessed_metric': [np.float64(0.12355212355212353), np.float64(0.12355212355212353), np.float64(0.12355212355212353), np.float64(0.12355212355212353)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001)], 'postprocessed_accuracy': [np.float64(0.725), np.float64(0.725), np.float64(0.725), np.float64(0.725)], 'original_metric': [np.float64(0.12462772050400917), np.float64(0.12462772050400917), np.float64(0.12462772050400917), np.float64(0.12462772050400917)], 'postprocessed_metric': [np.float64(0.12355212355212353), np.float64(0.12355212355212353), np.float64(0.12355212355212353), np.float64(0.12355212355212353)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.76), np.float64(0.76), np.float64(0.76), np.float64(0.76)], 'postprocessed_accuracy': [np.float64(0.745), np.float64(0.74), np.float64(0.755), np.float64(0.76)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.76), np.float64(0.76), np.float64(0.76), np.float64(0.76)], 'postprocessed_accuracy': [np.float64(0.745), np.float64(0.74), np.float64(0.755), np.float64(0.76)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001)], 'postprocessed_accuracy': [np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999)], 'original_metric': [np.float64(0.1191294387170676), np.float64(0.1191294387170676), np.float64(0.1191294387170676), np.float64(0.1191294387170676)], 'postprocessed_metric': [np.float64(0.21672394043528065), np.float64(0.21672394043528065), np.float64(0.21672394043528065), np.float64(0.21672394043528065)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001)], 'postprocessed_accuracy': [np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999)], 'original_metric': [np.float64(0.1191294387170676), np.float64(0.1191294387170676), np.float64(0.1191294387170676), np.float64(0.1191294387170676)], 'postprocessed_metric': [np.float64(0.21672394043528065), np.float64(0.21672394043528065), np.float64(0.21672394043528065), np.float64(0.21672394043528065)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.725), np.float64(0.725), np.float64(0.725), np.float64(0.725)], 'postprocessed_accuracy': [np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004)], 'original_metric': [np.float64(0.13256113256113256), np.float64(0.13256113256113256), np.float64(0.13256113256113256), np.float64(0.13256113256113256)], 'postprocessed_metric': [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.725), np.float64(0.725), np.float64(0.725), np.float64(0.725)], 'postprocessed_accuracy': [np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004), np.float64(0.29000000000000004)], 'original_metric': [np.float64(0.13256113256113256), np.float64(0.13256113256113256), np.float64(0.13256113256113256), np.float64(0.13256113256113256)], 'postprocessed_metric': [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001)], 'postprocessed_accuracy': [np.float64(0.69), np.float64(0.6950000000000001), np.float64(0.6799999999999999), np.float64(0.69)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+[0.00368558]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001), np.float64(0.6950000000000001)], 'postprocessed_accuracy': [np.float64(0.69), np.float64(0.6950000000000001), np.float64(0.6799999999999999), np.float64(0.69)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001)], 'postprocessed_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'original_metric': [np.float64(0.07628865979381438), np.float64(0.07628865979381438), np.float64(0.07628865979381438), np.float64(0.07628865979381438)], 'postprocessed_metric': [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]}
+the postfile was not empty
+[0.00602755]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001)], 'postprocessed_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'original_metric': [np.float64(0.07628865979381438), np.float64(0.07628865979381438), np.float64(0.07628865979381438), np.float64(0.07628865979381438)], 'postprocessed_metric': [np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001)], 'postprocessed_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'original_metric': [np.float64(0.07722007722007729), np.float64(0.07722007722007729), np.float64(0.07722007722007729), np.float64(0.07722007722007729)], 'postprocessed_metric': [np.float64(0.014157014157014203), np.float64(0.014157014157014203), np.float64(0.014157014157014203), np.float64(0.014157014157014203)]}
+the postfile was not empty
+[0.01623377]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001), np.float64(0.7150000000000001)], 'postprocessed_accuracy': [np.float64(0.72), np.float64(0.72), np.float64(0.72), np.float64(0.72)], 'original_metric': [np.float64(0.07722007722007729), np.float64(0.07722007722007729), np.float64(0.07722007722007729), np.float64(0.07722007722007729)], 'postprocessed_metric': [np.float64(0.014157014157014203), np.float64(0.014157014157014203), np.float64(0.014157014157014203), np.float64(0.014157014157014203)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.655), np.float64(0.655), np.float64(0.655), np.float64(0.655)], 'postprocessed_accuracy': [np.float64(0.6699999999999999), np.float64(0.65), np.float64(0.655), np.float64(0.65)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.655), np.float64(0.655), np.float64(0.655), np.float64(0.655)], 'postprocessed_accuracy': [np.float64(0.6699999999999999), np.float64(0.65), np.float64(0.655), np.float64(0.65)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6599999999999999), np.float64(0.6599999999999999), np.float64(0.6599999999999999), np.float64(0.6599999999999999)], 'postprocessed_accuracy': [np.float64(0.73), np.float64(0.73), np.float64(0.73), np.float64(0.73)], 'original_metric': [np.float64(0.052233676975945054), np.float64(0.052233676975945054), np.float64(0.052233676975945054), np.float64(0.052233676975945054)], 'postprocessed_metric': [np.float64(0.11271477663230234), np.float64(0.11271477663230234), np.float64(0.11271477663230234), np.float64(0.11271477663230234)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6599999999999999), np.float64(0.6599999999999999), np.float64(0.6599999999999999), np.float64(0.6599999999999999)], 'postprocessed_accuracy': [np.float64(0.73), np.float64(0.73), np.float64(0.73), np.float64(0.73)], 'original_metric': [np.float64(0.052233676975945054), np.float64(0.052233676975945054), np.float64(0.052233676975945054), np.float64(0.052233676975945054)], 'postprocessed_metric': [np.float64(0.11271477663230234), np.float64(0.11271477663230234), np.float64(0.11271477663230234), np.float64(0.11271477663230234)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.675), np.float64(0.675), np.float64(0.675), np.float64(0.675)], 'postprocessed_accuracy': [np.float64(0.62), np.float64(0.62), np.float64(0.62), np.float64(0.62)], 'original_metric': [np.float64(0.11969111969111973), np.float64(0.11969111969111973), np.float64(0.11969111969111973), np.float64(0.11969111969111973)], 'postprocessed_metric': [np.float64(0.2675830469644903), np.float64(0.2675830469644903), np.float64(0.2675830469644903), np.float64(0.2675830469644903)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.675), np.float64(0.675), np.float64(0.675), np.float64(0.675)], 'postprocessed_accuracy': [np.float64(0.62), np.float64(0.62), np.float64(0.62), np.float64(0.62)], 'original_metric': [np.float64(0.11969111969111973), np.float64(0.11969111969111973), np.float64(0.11969111969111973), np.float64(0.11969111969111973)], 'postprocessed_metric': [np.float64(0.2675830469644903), np.float64(0.2675830469644903), np.float64(0.2675830469644903), np.float64(0.2675830469644903)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.685), np.float64(0.685), np.float64(0.685), np.float64(0.685)], 'postprocessed_accuracy': [np.float64(0.69), np.float64(0.6950000000000001), np.float64(0.6799999999999999), np.float64(0.685)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.685), np.float64(0.685), np.float64(0.685), np.float64(0.685)], 'postprocessed_accuracy': [np.float64(0.69), np.float64(0.6950000000000001), np.float64(0.6799999999999999), np.float64(0.685)], 'original_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)], 'postprocessed_metric': [np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586), np.float64(0.042062415196743586)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.69), np.float64(0.69), np.float64(0.69), np.float64(0.69)], 'postprocessed_accuracy': [np.float64(0.6699999999999999), np.float64(0.6699999999999999), np.float64(0.6699999999999999), np.float64(0.6699999999999999)], 'original_metric': [np.float64(0.01122565864833902), np.float64(0.01122565864833902), np.float64(0.01122565864833902), np.float64(0.01122565864833902)], 'postprocessed_metric': [np.float64(0.15807560137457044), np.float64(0.15807560137457044), np.float64(0.15807560137457044), np.float64(0.15807560137457044)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.69), np.float64(0.69), np.float64(0.69), np.float64(0.69)], 'postprocessed_accuracy': [np.float64(0.6699999999999999), np.float64(0.6699999999999999), np.float64(0.6699999999999999), np.float64(0.6699999999999999)], 'original_metric': [np.float64(0.01122565864833902), np.float64(0.01122565864833902), np.float64(0.01122565864833902), np.float64(0.01122565864833902)], 'postprocessed_metric': [np.float64(0.15807560137457044), np.float64(0.15807560137457044), np.float64(0.15807560137457044), np.float64(0.15807560137457044)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999)], 'postprocessed_accuracy': [np.float64(0.74), np.float64(0.74), np.float64(0.74), np.float64(0.74)], 'original_metric': [np.float64(0.12612612612612617), np.float64(0.12612612612612617), np.float64(0.12612612612612617), np.float64(0.12612612612612617)], 'postprocessed_metric': [np.float64(0.3217503217503218), np.float64(0.3217503217503218), np.float64(0.3217503217503218), np.float64(0.3217503217503218)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999), np.float64(0.6799999999999999)], 'postprocessed_accuracy': [np.float64(0.74), np.float64(0.74), np.float64(0.74), np.float64(0.74)], 'original_metric': [np.float64(0.12612612612612617), np.float64(0.12612612612612617), np.float64(0.12612612612612617), np.float64(0.12612612612612617)], 'postprocessed_metric': [np.float64(0.3217503217503218), np.float64(0.3217503217503218), np.float64(0.3217503217503218), np.float64(0.3217503217503218)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.024249346650961234), 'postprocessed_metric': np.float64(0.024249346650961234)}
+the postfile was not empty
+[2.41599277e-05]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.024249346650961234), 'postprocessed_metric': np.float64(0.024249346650961234)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+[0.00010864]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.3153257593322514), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+[0.00040338]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.3153257593322514), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.024249346650961234), 'postprocessed_metric': np.float64(0.024249346650961234)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.024249346650961234), 'postprocessed_metric': np.float64(0.024249346650961234)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.3153257593322514), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.3153257593322514), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.024249346650961234), 'postprocessed_metric': np.float64(0.024249346650961234)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.024249346650961234), 'postprocessed_metric': np.float64(0.024249346650961234)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.6846742406677486), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.3153257593322514), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.6846742406677486), 'postprocessed_accuracy': np.float64(0.3153257593322514), 'original_metric': np.float64(0.0), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.024249346650961234)], 'postprocessed_metric': [np.float64(0.024249346650961234)]}
+the postfile was not empty
+[2.41599277e-05]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.024249346650961234)], 'postprocessed_metric': [np.float64(0.024249346650961234)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.0)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+[0.00010864]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.0)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_oulad_0.005_2_eodds.p not found.
+[0.00040338]
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_oulad_0.005_2_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.024249346650961234)], 'postprocessed_metric': [np.float64(0.024249346650961234)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.024249346650961234)], 'postprocessed_metric': [np.float64(0.024249346650961234)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.0)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.0)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_oulad_0.005_3_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_oulad_0.005_3_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.024249346650961234)], 'postprocessed_metric': [np.float64(0.024249346650961234)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.024249346650961234)], 'postprocessed_metric': [np.float64(0.024249346650961234)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.0)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.6846742406677486)], 'postprocessed_accuracy': [np.float64(0.6846742406677486)], 'original_metric': [np.float64(0.0)], 'postprocessed_metric': [np.float64(0.0)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_oulad_0.005_4_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_oulad_0.005_4_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8607594936708861), 'original_metric': np.float64(0.03461538461538466), 'postprocessed_metric': np.float64(0.03461538461538466)}
+the postfile was not empty
+[0.00986193]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8607594936708861), 'original_metric': np.float64(0.03461538461538466), 'postprocessed_metric': np.float64(0.03461538461538466)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.08974358974358976), 'postprocessed_metric': np.float64(0.08974358974358976)}
+the postfile was not empty
+[0.00233685]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.08974358974358976), 'postprocessed_metric': np.float64(0.08974358974358976)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.1428571428571429), 'postprocessed_metric': np.float64(0.1428571428571429)}
+the postfile was not empty
+[0.15894309]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.1428571428571429), 'postprocessed_metric': np.float64(0.1428571428571429)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8734177215189873), 'original_metric': np.float64(0.03461538461538466), 'postprocessed_metric': np.float64(0.03461538461538466)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8734177215189873), 'original_metric': np.float64(0.03461538461538466), 'postprocessed_metric': np.float64(0.03461538461538466)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.810126582278481), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.08653846153846156), 'postprocessed_metric': np.float64(0.08974358974358976)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.810126582278481), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.08653846153846156), 'postprocessed_metric': np.float64(0.08974358974358976)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8860759493670887), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.2142857142857143), 'postprocessed_metric': np.float64(0.1428571428571429)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8860759493670887), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.2142857142857143), 'postprocessed_metric': np.float64(0.1428571428571429)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.7341772151898734), 'original_metric': np.float64(0.03461538461538466), 'postprocessed_metric': np.float64(0.03461538461538466)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.7341772151898734), 'original_metric': np.float64(0.03461538461538466), 'postprocessed_metric': np.float64(0.03461538461538466)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.08974358974358976), 'postprocessed_metric': np.float64(0.08974358974358976)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.08974358974358976), 'postprocessed_metric': np.float64(0.08974358974358976)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.1428571428571429), 'postprocessed_metric': np.float64(0.1428571428571429)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8987341772151899), 'postprocessed_accuracy': np.float64(0.8987341772151899), 'original_metric': np.float64(0.1428571428571429), 'postprocessed_metric': np.float64(0.1428571428571429)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8607594936708861)], 'original_metric': [np.float64(0.03461538461538466)], 'postprocessed_metric': [np.float64(0.03461538461538466)]}
+the postfile was not empty
+[0.00986193]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8607594936708861)], 'original_metric': [np.float64(0.03461538461538466)], 'postprocessed_metric': [np.float64(0.03461538461538466)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8987341772151899)], 'original_metric': [np.float64(0.08974358974358976)], 'postprocessed_metric': [np.float64(0.08974358974358976)]}
+the postfile was not empty
+[0.00233685]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8987341772151899)], 'original_metric': [np.float64(0.08974358974358976)], 'postprocessed_metric': [np.float64(0.08974358974358976)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-mat_0.005_2_eodds.p not found.
+[0.15894309]
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-mat_0.005_2_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8734177215189873)], 'original_metric': [np.float64(0.03461538461538466)], 'postprocessed_metric': [np.float64(0.03461538461538466)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8734177215189873)], 'original_metric': [np.float64(0.03461538461538466)], 'postprocessed_metric': [np.float64(0.03461538461538466)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8860759493670887)], 'postprocessed_accuracy': [np.float64(0.8987341772151899)], 'original_metric': [np.float64(0.08974358974358976)], 'postprocessed_metric': [np.float64(0.08974358974358976)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8860759493670887)], 'postprocessed_accuracy': [np.float64(0.8987341772151899)], 'original_metric': [np.float64(0.08974358974358976)], 'postprocessed_metric': [np.float64(0.08974358974358976)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-mat_0.005_3_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-mat_0.005_3_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8227848101265822)], 'postprocessed_accuracy': [np.float64(0.810126582278481)], 'original_metric': [np.float64(0.03461538461538466)], 'postprocessed_metric': [np.float64(0.03461538461538466)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8227848101265822)], 'postprocessed_accuracy': [np.float64(0.810126582278481)], 'original_metric': [np.float64(0.03461538461538466)], 'postprocessed_metric': [np.float64(0.03461538461538466)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8987341772151899)], 'original_metric': [np.float64(0.08974358974358976)], 'postprocessed_metric': [np.float64(0.04807692307692313)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8987341772151899)], 'postprocessed_accuracy': [np.float64(0.8987341772151899)], 'original_metric': [np.float64(0.08974358974358976)], 'postprocessed_metric': [np.float64(0.04807692307692313)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-mat_0.005_4_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-mat_0.005_4_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.9), 'original_metric': np.float64(0.1376570110228147), 'postprocessed_metric': np.float64(0.1376570110228147)}
+the postfile was not empty
+[0.00141553]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.9), 'original_metric': np.float64(0.1376570110228147), 'postprocessed_metric': np.float64(0.1376570110228147)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.8692307692307693), 'original_metric': np.float64(0.030000000000000027), 'postprocessed_metric': np.float64(0.04444444444444451)}
+the postfile was not empty
+[0.01795866]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.8692307692307693), 'original_metric': np.float64(0.030000000000000027), 'postprocessed_metric': np.float64(0.04444444444444451)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.1461538461538462), 'original_metric': np.float64(0.23863636363636365), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+[0.24725275]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.1461538461538462), 'original_metric': np.float64(0.23863636363636365), 'postprocessed_metric': np.float64(0.0)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.8615384615384616), 'original_metric': np.float64(0.1376570110228147), 'postprocessed_metric': np.float64(0.1376570110228147)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.8615384615384616), 'original_metric': np.float64(0.1376570110228147), 'postprocessed_metric': np.float64(0.1376570110228147)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.8692307692307693), 'original_metric': np.float64(0.030000000000000027), 'postprocessed_metric': np.float64(0.0011111111111111738)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.8692307692307693), 'original_metric': np.float64(0.030000000000000027), 'postprocessed_metric': np.float64(0.0011111111111111738)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8923076923076922), 'postprocessed_accuracy': np.float64(0.8846153846153846), 'original_metric': np.float64(0.29545454545454547), 'postprocessed_metric': np.float64(0.05681818181818182)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8923076923076922), 'postprocessed_accuracy': np.float64(0.8846153846153846), 'original_metric': np.float64(0.29545454545454547), 'postprocessed_metric': np.float64(0.05681818181818182)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.8769230769230769), 'postprocessed_accuracy': np.float64(0.8692307692307693), 'original_metric': np.float64(0.1376570110228147), 'postprocessed_metric': np.float64(0.1376570110228147)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.8769230769230769), 'postprocessed_accuracy': np.float64(0.8692307692307693), 'original_metric': np.float64(0.1376570110228147), 'postprocessed_metric': np.float64(0.1376570110228147)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9), 'postprocessed_accuracy': np.float64(0.8615384615384616), 'original_metric': np.float64(0.01666666666666672), 'postprocessed_metric': np.float64(0.07111111111111112)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9), 'postprocessed_accuracy': np.float64(0.8615384615384616), 'original_metric': np.float64(0.01666666666666672), 'postprocessed_metric': np.float64(0.07111111111111112)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.9153846153846154), 'original_metric': np.float64(0.23863636363636365), 'postprocessed_metric': np.float64(0.23863636363636365)}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': np.float64(0.9076923076923077), 'postprocessed_accuracy': np.float64(0.9153846153846154), 'original_metric': np.float64(0.23863636363636365), 'postprocessed_metric': np.float64(0.23863636363636365)}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.9076923076923077)], 'postprocessed_accuracy': [np.float64(0.8615384615384616)], 'original_metric': [np.float64(0.1376570110228147)], 'postprocessed_metric': [np.float64(0.1376570110228147)]}
+the postfile was not empty
+[0.00141553]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.9076923076923077)], 'postprocessed_accuracy': [np.float64(0.8615384615384616)], 'original_metric': [np.float64(0.1376570110228147)], 'postprocessed_metric': [np.float64(0.1376570110228147)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.9076923076923077)], 'postprocessed_accuracy': [np.float64(0.8769230769230769)], 'original_metric': [np.float64(0.030000000000000027)], 'postprocessed_metric': [np.float64(0.07333333333333325)]}
+the postfile was not empty
+[0.01795866]
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.9076923076923077)], 'postprocessed_accuracy': [np.float64(0.8769230769230769)], 'original_metric': [np.float64(0.030000000000000027)], 'postprocessed_metric': [np.float64(0.07333333333333325)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-por_0.005_2_eodds.p not found.
+[0.24725275]
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-por_0.005_2_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.9)], 'postprocessed_accuracy': [np.float64(0.9076923076923077)], 'original_metric': [np.float64(0.1376570110228147)], 'postprocessed_metric': [np.float64(0.1376570110228147)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.9)], 'postprocessed_accuracy': [np.float64(0.9076923076923077)], 'original_metric': [np.float64(0.1376570110228147)], 'postprocessed_metric': [np.float64(0.1376570110228147)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.9076923076923077)], 'postprocessed_accuracy': [np.float64(0.9076923076923077)], 'original_metric': [np.float64(0.030000000000000027)], 'postprocessed_metric': [np.float64(0.030000000000000027)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.9076923076923077)], 'postprocessed_accuracy': [np.float64(0.9076923076923077)], 'original_metric': [np.float64(0.030000000000000027)], 'postprocessed_metric': [np.float64(0.030000000000000027)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-por_0.005_3_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-por_0.005_3_eodds.p not found.
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8769230769230769)], 'postprocessed_accuracy': [np.float64(0.8692307692307693)], 'original_metric': [np.float64(0.1376570110228147)], 'postprocessed_metric': [np.float64(0.1376570110228147)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8769230769230769)], 'postprocessed_accuracy': [np.float64(0.8692307692307693)], 'original_metric': [np.float64(0.1376570110228147)], 'postprocessed_metric': [np.float64(0.1376570110228147)]}
+the postfile was not empty
+it got here
+used load_result
+{'original_accuracy': [np.float64(0.8538461538461538)], 'postprocessed_accuracy': [np.float64(0.8153846153846154)], 'original_metric': [np.float64(0.043333333333333335)], 'postprocessed_metric': [np.float64(0.11222222222222222)]}
+the postfile was not empty
+it got here
+Plotting complete
+used load_result
+{'original_accuracy': [np.float64(0.8538461538461538)], 'postprocessed_accuracy': [np.float64(0.8153846153846154)], 'original_metric': [np.float64(0.043333333333333335)], 'postprocessed_metric': [np.float64(0.11222222222222222)]}
+the postfile was not empty
+it got here
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-por_0.005_4_eodds.p not found.
+Plotting complete
+used load_result
+Post-processing results file /home/users/dc460/TreeFARMSBenchmark/results_fair/post_student-por_0.005_4_eodds.p not found.
+it got here

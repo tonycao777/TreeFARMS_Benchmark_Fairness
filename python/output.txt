@@ -1,0 +1,10 @@
+Current Working Directory: /home/users/dc460/TreeFARMSBenchmark
+Current Working Directory: /home/users/dc460/TreeFARMSBenchmark
+training set shape: (182115, 119)
+training data saved
+testing data saved
+DPF training time: 1.4717698097229004
+1
+dp 0.01 2 0.01
+eodds 0.01 2 0.01
+eopp 0.01 2 0.01
